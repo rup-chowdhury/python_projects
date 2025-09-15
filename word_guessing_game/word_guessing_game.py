@@ -18,5 +18,6 @@ if guess in word:
         if word[i] == guess:
             guessedWord[i] = guess
     print("Great Guess")
-
-
+else:
+    attempts = attempts - 1
+    print("Attepts left: " + str(attempts))

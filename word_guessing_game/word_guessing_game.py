@@ -20,4 +20,5 @@ if guess in word:
     print("Great Guess")
 else:
     attempts = attempts - 1
-    print("Attepts left: " + str(attempts))
+    print("Wrong Guess! Attepts left: " + str(attempts))
+

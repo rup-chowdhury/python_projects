@@ -8,3 +8,6 @@ guessedWord = ['_'] * len(word)
 
 attempts = 10
 
+if attempts > 0:
+    print('Current Word: ' + ' '.join(guessedWord))
+

@@ -11,3 +11,5 @@ attempts = 10
 if attempts > 0:
     print('Current Word: ' + ' '.join(guessedWord))
 
+guess = input('Guess a letter : ').lower()
+

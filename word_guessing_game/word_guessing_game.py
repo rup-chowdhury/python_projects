@@ -13,3 +13,10 @@ if attempts > 0:
 
 guess = input('Guess a letter : ').lower()
 
+if guess in word:
+    for i in range(len(word)):
+        if word[i] == guess:
+            guessedWord[i] = guess
+    print("Great Guess")
+
+

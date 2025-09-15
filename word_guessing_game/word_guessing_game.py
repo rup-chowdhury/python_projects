@@ -22,3 +22,7 @@ else:
     attempts = attempts - 1
     print("Wrong Guess! Attepts left: " + str(attempts))
 
+    if '_' not in guessedWord:
+            print('\n Congratulations! You guessed the correct word' + word)
+            break
+

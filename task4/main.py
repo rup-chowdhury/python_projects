@@ -25,7 +25,6 @@ def main():
     try:
         with psycopg.connect(conn_str) as conn:
             with conn.cursor() as cur:
-                # List tables in the public schema
                 cur.execute(
                     """
                     SELECT table_name
